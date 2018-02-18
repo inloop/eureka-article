@@ -83,10 +83,10 @@
             </objects>
             <point key="canvasLocation" x="2137" y="224"/>
         </scene>
-        <!--View Controller-->
+        <!--Eureka Selections View Controller-->
         <scene sceneID="4ZY-da-5f9">
             <objects>
-                <viewController id="9g9-fF-fxC" sceneMemberID="viewController">
+                <viewController id="9g9-fF-fxC" customClass="EurekaSelectionsViewController" customModule="Eureka_Article" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1h5-Su-a7p">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		63D43E83018EAAEF8C229549 /* Pods_Eureka_Article.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD429DF341A3E29AEBABD997 /* Pods_Eureka_Article.framework */; };
+		C304A316203A161300DF6461 /* EurekaSelectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C304A315203A161300DF6461 /* EurekaSelectionsViewController.swift */; };
 		C36E577620334ED100E9339C /* EurekaSimpleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36E577520334ED100E9339C /* EurekaSimpleViewController.swift */; };
 		C3AE361E2032E94B002A16DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AE361D2032E94B002A16DF /* AppDelegate.swift */; };
 		C3AE36232032E94B002A16DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3AE36212032E94B002A16DF /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 		5E7D1D925674C54FF2321080 /* Pods-Eureka Article.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eureka Article.release.xcconfig"; path = "Pods/Target Support Files/Pods-Eureka Article/Pods-Eureka Article.release.xcconfig"; sourceTree = "<group>"; };
 		6D85B787875F718E2C7137C5 /* Pods-Eureka Article.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eureka Article.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Eureka Article/Pods-Eureka Article.debug.xcconfig"; sourceTree = "<group>"; };
 		BD429DF341A3E29AEBABD997 /* Pods_Eureka_Article.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Eureka_Article.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C304A315203A161300DF6461 /* EurekaSelectionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EurekaSelectionsViewController.swift; sourceTree = "<group>"; };
 		C36E577520334ED100E9339C /* EurekaSimpleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EurekaSimpleViewController.swift; sourceTree = "<group>"; };
 		C3AE361A2032E94B002A16DF /* Eureka Article.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Eureka Article.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3AE361D2032E94B002A16DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 				C3AE36262032E94B002A16DF /* LaunchScreen.storyboard */,
 				C3AE36292032E94B002A16DF /* Info.plist */,
 				C36E577520334ED100E9339C /* EurekaSimpleViewController.swift */,
+				C304A315203A161300DF6461 /* EurekaSelectionsViewController.swift */,
 			);
 			path = "Eureka Article";
 			sourceTree = "<group>";
@@ -219,6 +222,7 @@
 			files = (
 				C36E577620334ED100E9339C /* EurekaSimpleViewController.swift in Sources */,
 				C3AE361E2032E94B002A16DF /* AppDelegate.swift in Sources */,
+				C304A316203A161300DF6461 /* EurekaSelectionsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
