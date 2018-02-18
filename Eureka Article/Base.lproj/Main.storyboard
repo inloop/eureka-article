@@ -64,11 +64,11 @@
             </objects>
             <point key="canvasLocation" x="2137" y="-475"/>
         </scene>
-        <!--Style-->
+        <!--Selections-->
         <scene sceneID="aQL-vE-3Xg">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="iFn-EB-lg3" userLabel="Style" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Style" id="smm-37-Rdw"/>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="iFn-EB-lg3" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Selections" id="smm-37-Rdw"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="rm9-sK-ZqO">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>

@@ -53,7 +53,7 @@ class EurekaSimpleViewController: FormViewController {
                         likeRow.updateCell()
                         
                         row.disabled = .function([FormItems.name]) { form in
-                            (self.form.rowBy(tag: FormItems.name) as? RowOf<String>)?.value == .some("Yoda")
+                            (form.rowBy(tag: FormItems.name) as? RowOf<String>)?.value == "Yoda"
                         }
                         row.evaluateDisabled()
                     }
