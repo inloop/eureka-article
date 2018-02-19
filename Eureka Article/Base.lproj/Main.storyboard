@@ -83,7 +83,7 @@
             </objects>
             <point key="canvasLocation" x="2137" y="224"/>
         </scene>
-        <!--Eureka Selections View Controller-->
+        <!--Selections-->
         <scene sceneID="4ZY-da-5f9">
             <objects>
                 <viewController id="9g9-fF-fxC" customClass="EurekaSelectionsViewController" customModule="Eureka_Article" customModuleProvider="target" sceneMemberID="viewController">
@@ -93,7 +93,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Hxa-kX-zPj"/>
                     </view>
-                    <navigationItem key="navigationItem" id="O22-Bn-exz"/>
+                    <navigationItem key="navigationItem" title="Selections" id="O22-Bn-exz"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hg4-d5-SKE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -118,17 +118,17 @@
             </objects>
             <point key="canvasLocation" x="2137" y="933"/>
         </scene>
-        <!--View Controller-->
+        <!--Custom-->
         <scene sceneID="pn8-KA-D0w">
             <objects>
-                <viewController id="hLQ-EW-PIx" sceneMemberID="viewController">
+                <viewController id="hLQ-EW-PIx" customClass="EurekaCustomViewController" customModule="Eureka_Article" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="UB3-YU-pb0">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="BRj-BA-8Ar"/>
                     </view>
-                    <navigationItem key="navigationItem" id="85d-c4-cS2"/>
+                    <navigationItem key="navigationItem" title="Custom" id="85d-c4-cS2"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GF1-ev-quS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
