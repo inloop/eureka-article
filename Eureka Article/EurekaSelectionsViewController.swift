@@ -17,7 +17,7 @@ class EurekaSelectionsViewController: FormViewController {
         static let primaryLanguage = "primaryLanguage"
         static let methodology = "methodology"
     }
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -27,15 +27,15 @@ class EurekaSelectionsViewController: FormViewController {
                 row.options = ["9 to 5", "At night", "All the time :)"]
             }
             <<< PushRow<String>(FormItems.primaryLanguage) { row in
-                row.title = "What is your primary language?"
+                row.title = "Preferred language"
                 row.options = ["Swift", "Objective C"]
         }
         
         
-        let languages = ["MVVM", "RxSwift", "Dependency injection", "Clean Swift", "VIPER"]
-
+        let methodologies = ["MVVM", "RxSwift", "Dependency injection", "Clean Swift", "VIPER"]
+        
         form +++ SelectableSection<ListCheckRow<String>>("Which methodologies do you prefer?", selectionType: .multipleSelection)
-        for option in languages {
+        for option in methodologies {
             form.last! <<< ListCheckRow<String>(option) { lrow in
                 lrow.title = option
                 lrow.selectableValue = option
