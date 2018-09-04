@@ -120,7 +120,6 @@
 				C3AE36172032E94B002A16DF /* Frameworks */,
 				C3AE36182032E94B002A16DF /* Resources */,
 				27CD505E03D9F9880987BB71 /* [CP] Embed Pods Frameworks */,
-				868F2DAD67920EA2CE0E6A16 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,21 +195,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Eureka Article/Pods-Eureka Article-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		868F2DAD67920EA2CE0E6A16 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Eureka Article/Pods-Eureka Article-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		9CBF18A4719749FF9F4B3EE6 /* [CP] Check Pods Manifest.lock */ = {

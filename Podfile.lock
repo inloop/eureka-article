@@ -1,12 +1,16 @@
 PODS:
-  - Eureka (4.0.1)
+  - Eureka (4.2.0)
 
 DEPENDENCIES:
   - Eureka
 
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Eureka
+
 SPEC CHECKSUMS:
-  Eureka: c8bd5cc07143b6f66268c208d28a246c99b41955
+  Eureka: 0748c7bbb2560130e43c7bfa83e99c98854a1f42
 
 PODFILE CHECKSUM: c30bd0915ab7423019c608c9a5c608d87b4f71be
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.5.3
